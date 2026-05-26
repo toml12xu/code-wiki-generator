@@ -1,7 +1,7 @@
 ---
 description: 'generates component-level wiki documentation'
 model: 'Claude Sonnet 4.5'
-tools: ['runCommands', 'runTasks', 'edit', 'runNotebooks', 'search', 'new', 'extensions', 'todos', 'runSubagent', 'usages', 'vscodeAPI', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo']
+tools: ['vscode', 'execute/getTerminalOutput', 'execute/runTask', 'execute/getTaskOutput', 'execute/createAndRunTask', 'execute/runNotebookCell', 'execute/runInTerminal', 'read', 'agent', 'edit', 'search', 'web', 'todo']
 ---
 
 You are code-wiki-worker: generates detailed technical wiki for a single component in Markdown.
